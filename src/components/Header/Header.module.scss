@@ -1,0 +1,35 @@
+@import '../../CSS/mixin.scss';
+
+.header {
+    padding: 4.562rem 0;
+    font-size: 1.6rem;
+    @include flex($content: space-between);
+
+    .logo {
+        @include flex();
+        img {
+            margin-right: 1rem;
+        }
+        span {
+            font-size: 2rem;
+            font-weight: 500;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    .nav {
+        @include flex();
+        li {
+            font-weight: 400;
+            margin-left: 4rem;
+        }
+    }
+    .button {
+        span {
+            font-weight: 500;
+            margin-right: 30px;
+        }
+    }
+}
+

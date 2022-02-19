@@ -1,0 +1,25 @@
+
+.button {
+    border: 1px solid #F53855;
+    border-radius: 5rem;
+    background-color: transparent;
+    padding: 1.3rem 4.5rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    color: #F53855;
+    
+}
+
+.active{
+    background: #F53838;
+    color: white;
+}
+
+.borderSM {
+    border-radius: 1rem;
+}
+
+.shadow {
+    box-shadow: 0px 12px 20px rgba(245, 56, 56, 0.35);
+}

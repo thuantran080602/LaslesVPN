@@ -1,0 +1,30 @@
+@import '../../CSS/mixin.scss';
+
+.Rectangle {
+    @include grid();
+    margin: 10rem 0;
+    box-shadow: 0px 12px 20px rgb(211, 208, 208);
+    padding: 4rem 0;
+
+    .item{
+        @include flex();
+        padding: 1rem;
+        &:not(:last-child) {
+            border-right: 1px solid #EEEFF2;
+        }
+
+        .title{
+            margin-left: 3.65rem;
+            h5 {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 30px;
+            }
+            h6 {
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 400;
+            }
+        }
+    }
+}
